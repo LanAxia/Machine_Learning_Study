@@ -1,0 +1,33 @@
+Each record in the database describes a Boston suburb or town. The data was drawn from the Boston Standard Metropolitan Statistical Area (SMSA) in 1970. The attributes are deﬁned as follows (taken from the UCI Machine Learning Repository1): 
+
+1. CRIM: per capita crime rate by town
+2. ZN: proportion of residential land zoned for lots over 25,000 sq.ft.
+3. INDUS: proportion of non-retail business acres per town
+4. CHAS: Charles River dummy variable (= 1 if tract bounds river; 0 otherwise)
+5. NOX: nitric oxides concentration (parts per 10 million)
+6. RM: average number of rooms per dwelling
+7. AGE: proportion of owner-occupied units built prior to 1940
+8. DIS: weighted distances to ﬁve Boston employment centers
+9. RAD: index of accessibility to radial highways
+10. TAX: full-value property-tax rate per $10,000
+11. PTRATIO: pupil-teacher ratio by town 
+12. B: 1000(Bk−0.63)2 where Bk is the proportion of blacks by town 
+13. LSTAT: % lower status of the population
+14. MEDV: Median value of owner-occupied homes in $1000s
+
+1. CRIM：各镇的人均犯罪率
+2. 2.ZN: 划定为25,000平方英尺以上的住宅用地的比例。
+3. INDUS：每个镇的非零售商业亩数的比例
+4. 4.CHAS：查尔斯河虚拟变量（=1，如果地块靠近河流；否则为0）。
+5. 5.NOX: 氮氧化物的浓度（每千万分之一）。
+6. 6.RM：每套住宅的平均房间数
+7. 年龄：1940年以前建造的业主自用单元的比例
+8. 8.DIS：与波士顿五个就业中心的加权距离
+9. RAD: 辐射状高速公路的可及性指数
+10. 税率：每10,000美元的全额财产税税率
+11. PTRATIO：各镇的学生-教师比率 
+12. B：1000(Bk-0.63)2，其中Bk是各镇黑人的比例 
+13. LSTAT: 人口中地位较低的百分比
+14. MEDV: 业主自用房屋的中值，单位为1000美元
+
+We can see that the input attributes have a mixture of units.
